@@ -2,15 +2,9 @@ body {
     background-color: rgba(19, 20, 25, 0.644);
 }
 
-
-
-
 #main {
     width: 50%;
-
-
 }
-
 
 #forForm {
     border-radius: 5px;
@@ -19,7 +13,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
 
 input {
@@ -62,8 +55,6 @@ th {
     border-radius: 20px;
 }
 
-
-
 #save {
     margin: auto;
     font-size: 18px;
@@ -72,5 +63,4 @@ th {
     height: 30px;
     background-color: rgba(193, 19, 19, 0.584);
     border-radius: 10px;
-
 }
