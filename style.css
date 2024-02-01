@@ -1,0 +1,72 @@
+body {
+    background-color: rgba(19, 20, 25, 0.644);
+}
+
+
+
+
+#main {
+    width: 50%;
+
+
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: rgb(133, 132, 130);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(174, 150, 150);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgb(238, 238, 246);
+}
+
+#btn {
+    cursor: pointer;
+    background-color: rgb(207, 216, 211);
+    border-radius: 10px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+#look {
+    background-color: rgb(118, 110, 99);
+    color: rgb(36, 8, 8);
+    border: solid 2px rgb(118, 110, 99);
+    border-radius: 10px;
+}
+
+#myButton {
+    color: bisque;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(148, 88, 88);
+    font-size: 20px;
+    font-weight: bold;
+}
