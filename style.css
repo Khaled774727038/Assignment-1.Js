@@ -12,7 +12,7 @@ body {
 }
 
 
-.container {
+#forForm {
     border-radius: 5px;
     background-color: rgb(133, 132, 130);
     padding: 20px;
@@ -59,14 +59,18 @@ th {
     background-color: rgb(118, 110, 99);
     color: rgb(36, 8, 8);
     border: solid 2px rgb(118, 110, 99);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-#myButton {
-    color: bisque;
-    width: 50%;
-    height: 40px;
-    background-color: rgb(148, 88, 88);
-    font-size: 20px;
-    font-weight: bold;
+
+
+#save {
+    margin: auto;
+    font-size: 18px;
+    color: aliceblue;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(193, 19, 19, 0.584);
+    border-radius: 10px;
+
 }

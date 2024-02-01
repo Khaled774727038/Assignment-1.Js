@@ -1,37 +1,36 @@
-var list1 = [];
-		var list2 = [];
-		var list3 = [];
-		var list4 = [];
 
-		var j = 1;
-		var i = 0;
+	const firstnameInput = document.getElementById ("firstname")
+	const lastnameInput = document.getElementById ("lastname")
+	const emailInput = document.getElementById ("email")
+	const ageInput = document.getElementById ("age")
+	const saveButtom = document.getElementById("save")
 
-		function AddRow(){
+	saveButtom.addEventListener("click", function(e){
+		e.preventDefault();
+		const newtr = document.createElement("tr");
+		 document.getElementById("mytbody").append(newtr);
+		 const newFristname = document.createElement("td");
+		 newFristname.innerText = firstnameInput.value;
+		 newtr.append(newFristname);
 
-			var AddRown = document.getElementById('look');
-			var NewRow = AddRown.insertRow(j);
+		 const newlasttname = document.createElement("td");
+		 newlasttname.innerText = lastnameInput.value;
+		 newtr.append(newlasttname);
 
-			list1[i] = document.getElementById("firstname").value;
-			list2[i] = document.getElementById("lastname").value;
-			list3[i] = document.getElementById("email").value;
-			list4[i] = document.getElementById("age").value;
+		 const newemail = document.createElement("td");
+		 newemail.innerText = emailInput.value;
+		 newtr.append(newemail);
 
-			var cel1 = NewRow.insertCell(0);
-			var cel2 = NewRow.insertCell(1);
-			var cel3 = NewRow.insertCell(2);
-			var cel4 = NewRow.insertCell(3);
+		 const newage = document.createElement("td");
+		 newage.innerText = ageInput.value;
+		 newtr.append(newage);
 
-			cel1.innerHTML = list1[i];
-			cel2.innerHTML = list2[i];
-			cel3.innerHTML = list3[i];
-			cel4.innerHTML = list4[i];
+	});
 
-			j++;
-			i++;
-		}
+	//this the for loop you can see the result in the console
+	let arr =[0,1,2,,3,4,5,6,7,8,9,10];
+	for (var i = 1; i < arr.length-1 ; i++) {
+		console.log(i);
+	};
 
-        const myButton = document.getElementById('myButton');
-        function handleClick() {
-            alert('The form  has been submitted!');
-          }
-          myButton.addEventListener('click', handleClick);
+
